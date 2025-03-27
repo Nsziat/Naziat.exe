@@ -1,1 +1,0 @@
-# Naziat.exe
