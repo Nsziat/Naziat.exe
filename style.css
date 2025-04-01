@@ -1,30 +1,77 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, black, purple);
+    color: white;
 }
-.container {
-    margin-top: 50px;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #222;
 }
-.profile-pic {
-    width: 150px;
-    height: 150px;
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: purple;
+    text-decoration: none;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.about .content {
+    max-width: 50%;
+}
+
+.about .profile-pic img {
     border-radius: 50%;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    border: 3px solid #333;
 }
-.message {
-    font-size: 20px;
-    margin: 20px 0;
-    color: #333;
+
+.social-icons i {
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
 }
-.whatsapp-link {
-    display: inline-block;
-    margin-top: 10px;
+
+.buttons {
+    margin-top: 20px;
 }
-.whatsapp-link img {
-    width: 50px;
-    height: 50px;
+
+.download {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hire {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
 }
