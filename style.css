@@ -1,30 +1,58 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
+/* Reset default margin and padding */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for centering content */
 .container {
-    margin-top: 50px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
 }
-.profile-pic {
-    width: 150px;
-    height: 150px;
+
+/* Profile Image */
+.profile-img {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #333;
+    margin-bottom: 20px;
 }
-.message {
-    font-size: 20px;
-    margin: 20px 0;
+
+/* Intro Section */
+.intro h1 {
+    font-size: 1.5em;
     color: #333;
+    margin-bottom: 10px;
 }
-.whatsapp-link {
+
+.intro p {
+    color: #777;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* WhatsApp Icon */
+.whatsapp a {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
 }
-.whatsapp-link img {
-    width: 50px;
-    height: 50px;
+
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
 }
